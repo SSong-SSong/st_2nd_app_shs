@@ -9,11 +9,11 @@ import io
 
 with st.sidebar:
     choose = option_menu("스마트도시연구본부", ["Green Remodeling", "Metro", "GHG Emission"],
-                         icons=['house', 'camera fill', 'kanban'],
-                         menu_icon="bi bi-list-columns-reverse", default_index=0,
+                         icons=['house', 'bi bi-train-lightrail-front', 'bi bi-thermometer-high'],
+                         menu_icon="bi bi-list-ul", default_index=0,
                          styles={
         "container": {"padding": "5!important", "background-color": "#6e6a6a"},
-        "icon": {"color": "white", "font-size": "20px"}, 
+        "icon": {"color": "white", "font-size": "15px"}, 
         "nav-link": {"font-size": "13px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
         "nav-link-selected": {"background-color": "#0a0a0a"},
     }
