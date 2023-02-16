@@ -12,7 +12,7 @@ with st.sidebar:
                          icons=['house', 'camera fill', 'kanban'],
                          menu_icon="app-indicator", default_index=0,
                          styles={
-        "container": {"padding": "5!important", "background-color": "#fafafa"},
+        "container": {"padding": "5!important", "background-color": "#6e6a6a"},
         "icon": {"color": "orange", "font-size": "25px"}, 
         "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
         "nav-link-selected": {"background-color": "#02ab21"},
