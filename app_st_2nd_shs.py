@@ -13,8 +13,8 @@ with st.sidebar:
                          menu_icon="bi bi-list-columns-reverse", default_index=0,
                          styles={
         "container": {"padding": "5!important", "background-color": "#6e6a6a"},
-        "icon": {"color": "orange", "font-size": "25px"}, 
-        "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
+        "icon": {"color": "white", "font-size": "20px"}, 
+        "nav-link": {"font-size": "13px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
         "nav-link-selected": {"background-color": "#0a0a0a"},
     }
     )
