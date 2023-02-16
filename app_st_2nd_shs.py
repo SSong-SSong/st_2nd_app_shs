@@ -9,7 +9,7 @@ import io
 
 with st.sidebar:
     choose = option_menu("기술연구소", ["Green Remodeling", "Metro", "GHG Emission"],
-                         icons=['house', 'bi bi-bus-front', 'bi bi-thermometer-high'],
+                         icons=['house', 'bi bi-thermometer-high', 'bi bi-thermometer-high'],
                          menu_icon="bi bi-list-ul", default_index=0,
                          styles={
         "container": {"padding": "5!important", "background-color": "#6e6a6a"},
