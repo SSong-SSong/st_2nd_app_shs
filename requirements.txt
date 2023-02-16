@@ -13,3 +13,4 @@ matplotlib
 chart_studio
 cufflinks
 xlsxwriter
+streamlit_option_menu
