@@ -32,10 +32,6 @@ st.markdown(hide_menu_style, unsafe_allow_html=True) # hide the hamburger menu?
 
 
 
-
-
-
-
 with st.sidebar:
     choose = option_menu("기술연구소", ["Green Remodeling", "Metro", "GHG Emission"],
                          icons=['house', 'bi bi-bus-front', 'bi bi-thermometer-high'],
