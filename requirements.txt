@@ -14,3 +14,4 @@ chart_studio
 cufflinks
 xlsxwriter
 streamlit_option_menu
+st_on_hover_tabs
