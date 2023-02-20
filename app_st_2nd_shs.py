@@ -13,7 +13,7 @@ import io
 hide_menu_style = """
         <style>
         #MainMenu {visibility: hidden;}
-        footer {visibility: visible;}
+        footer {visibility: hidde;}
         footer:after {content:'Copyright @ 2023: ssongssognssong all rights reserved';
         display:block;
         opsition:relatiive;
@@ -31,7 +31,7 @@ st.markdown(hide_menu_style, unsafe_allow_html=True) # hide the hamburger menu?
 
 
 
-
+# sidebar menu
 with st.sidebar:
     choose = option_menu("기술연구소", ["Green Remodeling", "Metro", "GHG Emission"],
                          icons=['house', 'bi bi-bus-front', 'bi bi-thermometer-high'],
