@@ -9,23 +9,23 @@ import plotly.express as px
 import io
 
 
-# # hide the hamburger menu?
-hide_menu_style = """
-        <style>
-        #MainMenu {visibility: hidden;}
-        footer {visibility: visible;}
-        footer:after {content:'Copyright @ 2023: 한국철도기술연구원 all rights reserved';
-        display:block;
-        opsition:relatiive;
-        color:tomato;
-        padding:5px;
-        top:100px;}
+# # # hide the hamburger menu?
+# hide_menu_style = """
+#         <style>
+#         #MainMenu {visibility: hidden;}
+#         footer {visibility: visible;}
+#         footer:after {content:'Copyright @ 2023: 한국철도기술연구원 all rights reserved';
+#         display:block;
+#         opsition:relatiive;
+#         color:tomato;
+#         padding:5px;
+#         top:100px;}
 
-        </style>
-        """
+#         </style>
+#         """
 
-st.set_page_config(layout="wide", page_title="songsongsong")
-st.markdown(hide_menu_style, unsafe_allow_html=True) # hide the hamburger menu?
+# st.set_page_config(layout="wide", page_title="songsongsong")
+# st.markdown(hide_menu_style, unsafe_allow_html=True) # hide the hamburger menu?
 
 
 
